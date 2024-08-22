@@ -1,4 +1,4 @@
-package go-useragent-parse
+package gouaparse
 
 func Parse(ua string) {
 
