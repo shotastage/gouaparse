@@ -1,3 +1,3 @@
-module github.com/shotastage/go-useragent-parse
+go 1.22.6
 
-go 1.16
+module github.com/shotastage/gouaparse

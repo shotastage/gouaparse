@@ -1,7 +1,14 @@
-package go-useragent-parse
+package gouaparse
 
 type UserAgent struct {
-	operatingSystem string
-	browser string
-	versionStr string
+	BrowserName            string
+	BrowserVersion         string
+	OperatingSystem        string
+	OperatingSystemVersion string
+	DeviceType             string
+	DeviceModel            string
+	RenderingEngine        string
+	RenderingEngineVersion string
+	IsBot                  bool
+	FullString             string
 }
