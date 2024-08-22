@@ -1,5 +1,7 @@
 package gouaparse
 
-func Parse(ua string) {
+import "fmt"
 
+func Parse(ua string) {
+	fmt.Println("Now under construction")
 }
